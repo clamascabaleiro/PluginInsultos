@@ -132,4 +132,5 @@ $result = $wpdb->get_results( 'SELECT insulto FROM wp_2insultos', ARRAY_A );
 //Substituye pis 
 return str_replace( $result[1],'p*s', $text );
 
+
 ?>
